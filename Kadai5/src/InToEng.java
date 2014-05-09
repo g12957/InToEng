@@ -36,7 +36,7 @@ import java.util.Scanner;
 	    	else if(n>=20 && n<100) {
 	    		x = n/10;
 	    		y = n-10*x;
-	    		return num2[x]+"  "+num[y];
+	    		return num2[x]+" "+num[y];
 	    	}	    	
    	
 	    		return num[n];
