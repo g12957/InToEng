@@ -12,17 +12,17 @@ import java.util.Scanner;
 	    
 	    // 数値を英訳する変換するメソッド
 	    static String translateEng(int n) {
-	    	int x,y,z;	    	
+	    	int w,x,y,z;	    	
 	    	
 	    	if(n==0) return "zero";
 	    	String[] num = {"","one","two","three","four","five","six",
 	    			"seven","eight","nine","ten","eleven","twelve","thirteen",
-	    			"fourteen","fifteen","eighteen","nineteen"
+	    			"fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"
 	    	};
 	    	String[] num2 = {"", "", "twenty","thirty","forty","fifty","sixty",
 	    			"seventy","eighty","ninety","hundred"};
-
-	    	if(n>=1000 && n<10000) {
+ 
+	    	if(n>=1000 && n<20000) {
 	    		x = n/1000;
 	    		y = (n-1000*x)/100;
 	    		z = (n-1000*x-100*y)/10;

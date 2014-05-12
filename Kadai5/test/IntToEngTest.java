@@ -17,7 +17,8 @@ public class IntToEngTest {
 		String exp8="one thousand   ";
 		String exp9="two thousand   one";
 		String exp10="three thousand  twenty four";
-		String exp11="seven thousand five hundred twenty one";
+		String exp11="seven thousand five hundred twenty one";		
+		String exp12="eighteen thousand six hundred thirty seven";
 		String act = IntToEng.translateEng(0);
 		String act2 = IntToEng.translateEng(11);
 		String act3 = IntToEng.translateEng(20);
@@ -29,6 +30,7 @@ public class IntToEngTest {
 		String act9 = IntToEng.translateEng(2001);
 		String act10 = IntToEng.translateEng(3024);
 		String act11 = IntToEng.translateEng(7521);
+		String act12 = IntToEng.translateEng(18637);
 		assertThat(act, is(exp));
 		assertThat(act2, is(exp2));
 		assertThat(act3, is(exp3));
@@ -40,8 +42,7 @@ public class IntToEngTest {
 		assertThat(act9, is(exp9));
 		assertThat(act10, is(exp10));
 		assertThat(act11, is(exp11));
-		
-		
+		assertThat(act12, is(exp12));		
 	}
 	
 
