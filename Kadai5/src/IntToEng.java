@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-	public class InToEng {
+	public class IntToEng {
 	    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
 	        int input = sc.nextInt();
