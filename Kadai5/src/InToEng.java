@@ -26,6 +26,7 @@ import java.util.Scanner;
 	    		x = n/1000;
 	    		y = (n-1000*x)/100;
 	    		z = (n-1000*x-100*y)/10;
+	    		if(y==0) return num[x]+" thousand "+num[y]+" "+num2[z]+" "+num[n-1000*x-100*y-10*z];
 	    		return num[x]+" thousand "+num[y]+" "+num2[10]+" "+num2[z]+" "+num[n-1000*x-100*y-10*z];
 	    	}
 	    	else if(n>=100 && n<1000) {

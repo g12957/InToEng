@@ -15,7 +15,7 @@ public class InToEngTest {
 		String exp6="three hundred  eight";
 		String exp7="eight hundred sixty three";
 		String exp8="one thousand";
-		String exp9="two thousand one";
+		String exp9="two thousand  one";
 		String exp10="three thousand twenty four";
 		String exp11="seven thousand five hundred twenty one";
 		String act = InToEng.translateEng(0);
